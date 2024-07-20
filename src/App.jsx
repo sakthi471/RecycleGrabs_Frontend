@@ -13,6 +13,7 @@ import Details from './pages/Details';
 const App = () => {
   return (
     <AuthProvider>
+      
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
